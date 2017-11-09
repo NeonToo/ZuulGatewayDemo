@@ -1,0 +1,10 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: https://localhost:9091/eureka
